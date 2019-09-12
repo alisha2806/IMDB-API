@@ -1,0 +1,18 @@
+<div class="col-md-12 display-imdb">
+  <h2 class="imdb_tabs">IMDB TABS</h2>
+  <p class="tab-box">Top 20 most popular Movies and TV shows</p>
+  <p class="tab-box details">Click on any movie or tv-show to find more details!!</p>
+  <mat-tab-group>
+    <mat-tab label="Movies">
+      <mat-list role="list" *ngFor="let group of movieData">
+        <mat-list-item role="listitem" (click)="openDialog(group)">{{group.title}}</mat-list-item>
+      </mat-list>
+    </mat-tab>
+    <mat-tab label="TV Shows">
+      <mat-list role="list" *ngFor="let groups of tvData">
+        <mat-list-item role="listitem" class="abc" (click)="openDialogs(groups)">{{groups.name}}</mat-list-item>
+      </mat-list>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+

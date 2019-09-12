@@ -1,0 +1,31 @@
+.display-imdb {
+  background-color: snow;
+}
+
+.imdb_tabs,
+.tab-box {
+  text-align: center;
+}
+.imdb_tabs {
+  color: tomato;
+  font-weight: bold;
+  padding-top: 17px;
+}
+
+.tab-box {
+  padding-top: 10px;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.tablinks {
+  color: red;
+  float: left;
+  border-radius: 20px/50px;
+  padding-top:4px;
+}
+
+.details {
+  color: blueviolet;
+}
